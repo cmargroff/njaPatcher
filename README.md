@@ -7,7 +7,7 @@ njaPatcher can auto detect some types of OBJ, it can determine whether the outpu
 The process of making a working NJA/NJ model is a 100% success if njaPatcher is implemented correctly, but the process of creating a Wavefront OBJ file has a strict set of requirements. These requirements are listed within the OBJ requirements section of this document.
 
 # How to use njaPatcher
-The current repo is still in early development and is refactored in a minimal way, the testing browser/console for njaPatcher is Google Chrome, so it's recommended while njaPatcher is still in alpha version.
+The current repo is still in early development and is refactored in a minimal way, the testing browser/console for njaPatcher is Google Chrome, so it's recommended while njaPatcher is still in alpha version. All functionality for this version of njaPatcher is controlled through the "main.js" script.
 
 In the latest update for njaPatcher, there is a JavaScript object to replace the previous functionality of editing variables in the "njaPatcher.js" script. A new script is included named "njPatcher.js", which has dependency on "njaPatcher.js", njaPatcher cannot currently return data in a mutable state, since the focus is creating an accurate conversion process first.
 
